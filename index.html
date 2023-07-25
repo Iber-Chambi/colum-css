@@ -5,8 +5,136 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./colum.css">
+    <link rel="stylesheet" href="./main.css">
 </head>
 <body>
-    <h1>columnas boostrap css</h1>
+    <h1 class="text">columnas boostrap css</h1>
+    <li class="text">
+        <ol>(col-xl-12) = mayores menores a 1200px</ol>
+        <ol>(col-lg-12) = menores a 992px</ol>
+        <ol>(col-md-12) = menores a 768px</ol>
+        <ol>(col-sm-12) = menores a 576px</ol>
+    </li>
+    <h2 class="text">examples</h2>
+    <h3 class="text">tomando 12 columnas = todo el espacio en pantallas xl,lg,md,sm</h3>
+    <div class="row">
+        <div class="col-xl-12 bdp">
+            <div class="text" style="background: #aeffd9;">
+                col-xl-12
+            </div>
+        </div>
+        <div class="col-xl-12 bdp">
+            <div class="text" style="background: #aeffd9;">
+                col-xl-12
+            </div>
+        </div>
+        <div class="col-xl-12 bdp">
+            <div class="text" style="background: #aeffd9;">
+                col-xl-12
+            </div>
+        </div>
+    </div>
+    <h3 class="text">tomando 12 columnas = todo el espacio en pantallas xl,lg,md,sm</h3>
+    <div class="row">
+        <div class="col-xl-12 col-lg-6 col-md-4 col-sm-4 bdp">
+            <div class="text" style="background: #aeffd9;">
+                col-xl-12 col-lg-12 col-md-12 col-sm-12
+            </div>
+        </div>
+        <div class="col-xl-12 col-lg-6 col-md-4 col-sm-4 bdp">
+            <div class="text" style="background: #aeffd9;">
+                col-xl-12 col-lg-12 col-md-12 col-sm-12
+            </div>
+        </div>
+        <div class="col-xl-12 col-lg-6 col-md-4 col-sm-4 bdp">
+            <div class="text" style="background: #aeffd9;">
+                col-xl-12 col-lg-12 col-md-12 col-sm-12
+            </div>
+        </div>
+    </div>
+    <h3 class="text">tomando 12 columnas repartidos a 4 = modificando el espacio xl,lg,md,sm</h3>
+    <div class="row">
+        <div class="col-xl-4 col-lg-6 col-md-12 col-sm-12 bdp">
+            <div class="text" style="background: burlywood;">
+                col-xl-4 col-lg-6 col-md-12 col-sm-12
+            </div>
+        </div>
+        <div class="col-xl-4 col-lg-6 col-md-12 col-sm-12 bdp">
+            <div class="text" style="background: burlywood;">
+                col-xl-4 col-lg-6 col-md-12 col-sm-12
+            </div>
+        </div>
+        <div class="col-xl-4 col-lg-6 col-md-12 col-sm-12 bdp">
+            <div class="text" style="background: burlywood;">
+                col-xl-4 col-lg-6 col-md-12 col-sm-12
+            </div>
+        </div>
+    </div>
+    <h3 class="text">tomando 12 columnas repartidos a 4 = todo el espacio en pantallas xl,lg,md,sm, en una linea</h3>
+    <div class="row">
+        <div class="col-xl-4 bdp">
+            <div class="text" style="background: burlywood;">
+                col-xl-4
+            </div>
+        </div>
+        <div class="col-xl-4 bdp">
+            <div class="text" style="background: burlywood;">
+                col-xl-4
+            </div>
+        </div>
+        <div class="col-xl-4 bdp">
+            <div class="text" style="background: burlywood;">
+                col-xl-4
+            </div>
+        </div>
+    </div>
+    <h3 class="text">conbinando los dos anteriores</h3>
+    <div class="row">
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 bdp">
+            <div style="background: burlywood; height: 100%; text-align: center; align-items: center; justify-content: center; display: flex;">
+                col-xl-4 col-lg-4 col-md-4 col-sm-4
+            </div>
+        </div>
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 bdp">
+            <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 bdp">
+                    <div class="text" style="background: #aeffd9;">
+                        col-xl-12 col-lg-12 col-md-12 col-sm-12
+                    </div>
+                </div>
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 bdp">
+                    <div class="text" style="background: #aeffd9;">
+                        col-xl-12 col-lg-12 col-md-12 col-sm-12
+                    </div>
+                </div>
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 bdp">
+                    <div class="text" style="background: #aeffd9;">
+                        col-xl-12 col-lg-12 col-md-12 col-sm-12
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 bdp">
+            <div style="background: burlywood; height: 100%; text-align: center; align-items: center; justify-content: center; display: flex;">
+                col-xl-4 col-lg-4 col-md-4 col-sm-4
+            </div>
+        </div>
+    </div>
+    <h3 class="text">tomando 12 columnas repartidos a 4 = modificando el espacio xl,lg,md,sm</h3>
+    <div class="row">
+        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 bdp">
+            <div style="background: burlywood; padding: 10px; align-items: start; justify-content: start; display: flex;">
+                start
+            </div>
+        </div>
+        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 bdp">
+            <div style="background: burlywood; padding: 10px; align-items: end; justify-content: end; display: flex;">
+                end
+            </div>
+        </div>
+    </div>
+    
+
+
 </body>
 </html>

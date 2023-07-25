@@ -1,0 +1,23 @@
+body{
+    padding: 20px;
+}
+.bdp{
+    border: rgb(4, 0, 255) solid 2px;
+}
+.text{
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Alinear el contenido del contenedor en el centro horizontalmente */
+    padding: 10px;
+}
+.outer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: red solid 1px;
+    /* height: 10vh; */
+}
+.inner-container {
+    text-align: center; /* Alinear el contenido del contenedor interior en el centro horizontalmente */
+}
